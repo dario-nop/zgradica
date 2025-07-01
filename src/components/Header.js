@@ -9,21 +9,21 @@ const Header = () => {
             <ul>
               <li>
                 <span className="active" id="home-link">
-                  Home
+                  Početna
                 </span>
               </li>
               <li>
-                <span id="about-link">About</span>
+                <span id="about-link">O Zgradici</span>
               </li>
               <li>
-                <span id="portfolio-link">Portfolio</span>
+                <span id="portfolio-link">Funkcionalnosti</span>
               </li>
               <li>
-                <span id="contact-link">Contact</span>
+                <span id="contact-link">Kontakt</span>
               </li>
-              <li>
+               {/*<li>
                 <span id="blog-link">Blog</span>
-              </li>
+              </li>*/}
             </ul>
           </nav>
         </div>
@@ -31,7 +31,7 @@ const Header = () => {
         {/* FREELANCE STARTS */}
         <div className="mail">
           <p>
-            Email :<span> contact@steven.net</span>
+            Email :<span> info@zgradica.com</span>
           </p>
         </div>
         {/* FREELANCE ENDS */}
@@ -47,29 +47,29 @@ const Header = () => {
           <ul className="list-unstyled" id="menu">
             <li>
               <a href="#home">
-                <span>Home</span>
+                <span>Početna</span>
               </a>
             </li>
             <li>
               <a href="#my-photo">
-                <span>About</span>
+                <span>O Zgradici</span>
               </a>
             </li>
             <li>
               <a href="#portfolio">
-                <span>Portfolio</span>
+                <span>Funkcionalnosti</span>
               </a>
             </li>
             <li>
               <a href="#contact">
-                <span>Contact</span>
+                <span>Kontakt</span>
               </a>
             </li>
-            <li>
+            {/*<li>
               <a href="#blog">
                 <span>Blog</span>
               </a>
-            </li>
+            </li>*/}
           </ul>
         </div>
       </nav>

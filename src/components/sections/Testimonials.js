@@ -7,14 +7,12 @@ const Testimonials = () => {
           <div>
             <p>
               <span className="quote">
-                " I worked with Steven, he was very helpful and fast to respond
-                to my inquiry to help with Wordpress website issues and all
-                technical problems. "
+                "Kao suvlasnica napokon imam jednostavan pregled svih troškova i odluka u zgradi. Sve račune mogu vidjeti kad god želim, a glasovanja su brza i jasna. Komunikacija sa susjedima više nije problem, jer sve rješavamo kroz aplikaciju bez nepotrebnih rasprava."
               </span>
-              <span className="person">Jasmin Aniston</span>
-              <span className="job">Director - Adobe</span>
+              <span className="person">Ivana</span>
+              <span className="job">Suvlasnica</span>
             </p>
-            <img src="assets/testimonials/testimonial-1.jpg" alt="" />
+            <img src="assets/testimonials/ivana.jpg" alt="" />
           </div>
         </div>
         {/* TESTIMONIAL ITEM ENDS */}
@@ -23,14 +21,26 @@ const Testimonials = () => {
           <div>
             <p>
               <span className="quote">
-                " Steven is a great help managing a very out of date website.
-                Everything we ask him to do is done quickly and efficiently, we
-                would be lost without him. "
+                "Lako je biti podstanar u našoj zgradi i baš mi je super što mogu kupiti domaće proizvode preko webshopa i dogovoriti dostavu. Uvijek sam informiran o važnim stvarima u zgradi, a i lako mogu javiti kvar ili podijeliti neku korisnu informaciju sa susjedima."
               </span>
-              <span className="person">Mark Eliott</span>
-              <span className="job">Manager - Envato</span>
+              <span className="person">Jan</span>
+              <span className="job">Student podstanar</span>
             </p>
-            <img src="assets/testimonials/testimonial-2.jpg" alt="" />
+            <img src="assets/testimonials/jan.jpg" alt="" />
+          </div>
+        </div>
+        {/* TESTIMONIAL ITEM ENDS */}
+        {/* TESTIMONIAL ITEM STARTS */}
+        <div className="quote-container animated-layer fade-in-right-animation fadeInUp wow">
+          <div>
+            <p>
+              <span className="quote">
+                "Zgradica mi je kao predstavniku stanara znatno olakšala posao. Sve je pregledno i dokumentirano – od glasovanja i financija do prijave kvarova. Stanari su zadovoljni jer imaju uvid u sve, a meni je organizacija lakša i brža nego ikad prije."
+              </span>
+              <span className="person">Dario</span>
+              <span className="job">Predstavnik stanara</span>
+            </p>
+            <img src="assets/testimonials/dario.jpg" alt="" />
           </div>
         </div>
         {/* TESTIMONIAL ITEM ENDS */}

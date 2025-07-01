@@ -11,7 +11,7 @@ const About = () => {
         >
           <div>
             <div>
-              <img className="my-photo" src="assets/about.jpg" alt="" />
+              <img className="my-photo" src="assets/admin_s24.png" alt="" />
             </div>
           </div>
         </div>
@@ -21,12 +21,7 @@ const About = () => {
           <h2>
             <span>
               <span className="animated-layer fade-in-up-animation fadeInUp wow">
-                Steven
-              </span>
-            </span>
-            <span>
-              <span className="animated-layer fade-in-up-animation fadeInUp wow">
-                Walker
+                O Zgradici
               </span>
             </span>
           </h2>
@@ -35,88 +30,89 @@ const About = () => {
               <li>
                 <span>
                   <span className="animated-layer fade-in-up-animation fadeInUp wow">
-                    <span>Age :</span>
-                    <span>27 Years</span>
+                    <span>Cijena :</span>
+                    <span>30 € / mjesečno + Dodatak</span>
                   </span>
                 </span>
               </li>
               <li>
                 <span>
                   <span className="animated-layer fade-in-up-animation fadeInUp wow">
-                    <span>Nationality :</span>
-                    <span>German</span>
+                    <span>Dodatak :</span>
+                    <span>+10 € / mjesečno za svakih 1000 m²</span>
                   </span>
                 </span>
               </li>
               <li>
                 <span>
                   <span className="animated-layer fade-in-up-animation fadeInUp wow">
-                    <span>Freelance :</span>
-                    <span>Available</span>
+                    <span>Plaćanje :</span>
+                    <span>Godišnja pretplata, bez ugovorne obveze</span>
                   </span>
                 </span>
               </li>
               <li>
                 <span>
                   <span className="animated-layer fade-in-up-animation fadeInUp wow">
-                    <span>Langages :</span>
-                    <span>English</span>
+                    <span>Nagrada za preporuku :</span>
+                    <span>2 mjesečne pretplate gratis</span>
                   </span>
                 </span>
               </li>
             </ul>
+            
             <ul>
               <li>
                 <span>
                   <span className="animated-layer fade-in-up-animation fadeInUp wow">
-                    <span>Address :</span>
-                    <span>London</span>
+                    <span>Edukacija :</span>
+                    <span>Zoom webinar uključen</span>
                   </span>
                 </span>
               </li>
               <li>
                 <span>
                   <span className="animated-layer fade-in-up-animation fadeInUp wow">
-                    <span>Phone :</span>
-                    <span>21 184 010</span>
+                    <span>Nadogradnje:</span>
+                    <span>Automatske, bez dodatne naknade</span>
                   </span>
                 </span>
               </li>
               <li>
                 <span>
                   <span className="animated-layer fade-in-up-animation fadeInUp wow">
-                    <span>Email :</span>
-                    <span>contact@steven.net</span>
+                    <span>Uključen Email:</span>
+                    <span>Email (ime_zgrade@zgradica.com)</span>
                   </span>
                 </span>
               </li>
               <li>
                 <span>
                   <span className="animated-layer fade-in-up-animation fadeInUp wow">
-                    <span>Skype :</span>
-                    <span>steven.walker</span>
+                    <span>Uključena Web stranica:</span>
+                    <span> Web stranica (https://ime_zgrade.zgradica.com)</span>
                   </span>
                 </span>
               </li>
             </ul>
           </div>
+
         </div>
         {/* INFO ENDS */}
       </div>
       {/* INFO HOLDER ENDS */}
+      
       {/* SKILLS STARTS */}
       <div className="skills flex-column-mobile">
         {/* TITLE STARTS */}
         <div className="custom-title">
-          {/* MAIN TITLE STARTS */}
           <h3>
             <span>
               <span className="animated-layer fade-in-left-animation fadeInUp wow">
-                My Skills
+                Ključne funkcije
               </span>
             </span>
           </h3>
-          {/* MAIN TITLE ENDS */}
         </div>
         {/* TITLE ENDS */}
         <div className="skills-content">
@@ -124,35 +120,17 @@ const About = () => {
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-down-animation fadeInLeft wow">
               <span>
-                <i className="devicon-wordpress-plain" />
+                <i className="fa-solid fa-vote-yea" />
               </span>
-              <h4>WordPress</h4>
+              <h4>Glasovanje</h4>
             </div>
             {/* SKILL ITEM ENDS */}
             {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-up-animation fadeInRight wow">
+            <div className="animated-layer fade-in-up-animation fadeInLeft wow">
               <span>
-                <i className="devicon-jquery-plain" />
+                <i className="fa-solid fa-comments" />
               </span>
-              <h4>jQuery</h4>
-            </div>
-            {/* SKILL ITEM ENDS */}
-          </div>
-          <div>
-            {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-down-animation fadeInLeft wow">
-              <span>
-                <i className="devicon-angularjs-plain" />
-              </span>
-              <h4>Angular JS</h4>
-            </div>
-            {/* SKILL ITEM ENDS */}
-            {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-up-animation fadeInRight wow">
-              <span>
-                <i className="devicon-drupal-plain" />
-              </span>
-              <h4>Drupal</h4>
+              <h4>Komunikacija</h4>
             </div>
             {/* SKILL ITEM ENDS */}
           </div>
@@ -160,17 +138,17 @@ const About = () => {
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-down-animation fadeInLeft wow">
               <span>
-                <i className="devicon-react-plain" />
+                <i className="fa-solid fa-store" />
               </span>
-              <h4>React JS</h4>
+              <h4>Vlastiti webshop</h4>
             </div>
             {/* SKILL ITEM ENDS */}
             {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-up-animation fadeInRight wow">
+            <div className="animated-layer fade-in-up-animation fadeInLeft wow">
               <span>
-                <i className="devicon-docker-plain" />
+                <i className="fa-solid fa-shield-halved" />
               </span>
-              <h4>Docker</h4>
+              <h4>Sigurnost</h4>
             </div>
             {/* SKILL ITEM ENDS */}
           </div>
@@ -178,36 +156,53 @@ const About = () => {
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-down-animation fadeInLeft wow">
               <span>
-                <i className="devicon-nodejs-plain" />
+                <i className="fa-solid fa-chart-line" />
               </span>
-              <h4>Node JS</h4>
+              <h4>Transparentnost</h4>
             </div>
             {/* SKILL ITEM ENDS */}
             {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-up-animation fadeInRight wow">
+            <div className="animated-layer fade-in-up-animation fadeInLeft wow">
               <span>
-                <i className="devicon-sass-plain" />
+                <i className="fa-solid fa-tools" />
               </span>
-              <h4>Sass</h4>
+              <h4>Održavanje</h4>
+            </div>
+            {/* SKILL ITEM ENDS */}
+          </div>
+          <div>
+            {/* SKILL ITEM STARTS */}
+            <div className="animated-layer fade-in-down-animation fadeInLeft wow">
+              <span>
+                <i className="fa-solid fa-users" />
+              </span>
+              <h4>Zajednica</h4>
+            </div>
+            {/* SKILL ITEM ENDS */}
+            {/* SKILL ITEM STARTS */}
+            <div className="animated-layer fade-in-up-animation fadeInLeft wow">
+              <span>
+                <i className="fa-solid fa-cog" />
+              </span>
+              <h4>Automatizacija</h4>
             </div>
             {/* SKILL ITEM ENDS */}
           </div>
         </div>
       </div>
       {/* SKILLS ENDS */}
-      {/* RESUME STARTS */}
+      
+      {/* PREDNOSTI STARTS */}
       <div className="resume flex-column-mobile">
         {/* TITLE STARTS */}
         <div className="custom-title fadeInUp wow">
-          {/* MAIN TITLE STARTS */}
           <h3>
             <span>
               <span className="animated-layer fade-in-left-animation">
-                My Resume
+                Zašto Zgradica?
               </span>
             </span>
           </h3>
-          {/* MAIN TITLE ENDS */}
         </div>
         {/* TITLE ENDS */}
         {/* TIMELINE STARTS */}
@@ -217,14 +212,10 @@ const About = () => {
             <li>
               <div className="animated-layer fade-in-down-animation fadeInUp wow">
                 <div className="experience">
-                  <h4>Project Manager</h4>
+                  <h4>Glasovanje</h4>
                   <p>
-                    <i className="fa-regular fa-clock" />
-                    <span>2019 - Now</span>
-                  </p>
-                  <p>
-                    <i className="fa-regular fa-building" />
-                    <span>Adobe Company</span>
+                    <i className="fa-solid fa-vote-yea" />
+                    <span>Glasovanje je usklađeno s važećim zakonima i propisima</span>
                   </p>
                 </div>
               </div>
@@ -234,14 +225,10 @@ const About = () => {
             <li>
               <div className="animated-layer fade-in-up-animation fadeInUp wow">
                 <div className="experience">
-                  <h4>Team Leader</h4>
+                  <h4>Komunikacija</h4>
                   <p>
-                    <i className="fa-regular fa-clock" />
-                    <span>2015 - 2019</span>
-                  </p>
-                  <p>
-                    <i className="fa-regular fa-building" />
-                    <span>Twitter Inc</span>
+                    <i className="fa-solid fa-comments" />
+                    <span>Razmjena poruka, prijava kvarova i email obavijesti</span>
                   </p>
                 </div>
               </div>
@@ -251,14 +238,10 @@ const About = () => {
             <li>
               <div className="animated-layer fade-in-down-animation fadeInUp wow">
                 <div className="experience">
-                  <h4>Web Developer</h4>
+                  <h4>Vlastiti webshop</h4>
                   <p>
-                    <i className="fa-regular fa-clock" />
-                    <span>2010 - 2015</span>
-                  </p>
-                  <p>
-                    <i className="fa-regular fa-building" />
-                    <span>Facebook</span>
+                    <i className="fa-solid fa-store" />
+                    <span>Stanari kupuju proizvode u zgradi s organiziranom dostavom</span>
                   </p>
                 </div>
               </div>
@@ -267,15 +250,11 @@ const About = () => {
             {/* TIMELINE ITEM STARTS */}
             <li>
               <div className="animated-layer fade-in-up-animation fadeInUp wow">
-                <div className="education">
-                  <h4>Master Degree</h4>
+                <div className="experience">
+                  <h4>Sigurnost</h4>
                   <p>
-                    <i className="fa-regular fa-clock" />
-                    <span>2003</span>
-                  </p>
-                  <p>
-                    <i className="fa-solid fa-building-columns" />
-                    <span>London University</span>
+                    <i className="fa-solid fa-shield-halved" />
+                    <span>Verifikacija registracije putem osobne iskaznice.</span>
                   </p>
                 </div>
               </div>
@@ -284,15 +263,50 @@ const About = () => {
             {/* TIMELINE ITEM STARTS */}
             <li>
               <div className="animated-layer fade-in-down-animation fadeInUp wow">
-                <div className="education">
-                  <h4>Bachelor Degree</h4>
+                <div className="experience">
+                  <h4>Transparentnost</h4>
                   <p>
-                    <i className="fa-regular fa-clock" />
-                    <span>1999</span>
+                    <i className="fa-solid fa-chart-line" />
+                    <span>Pregled dokumentacije omogućen isključivo suvlasnicima.</span>
                   </p>
+                </div>
+              </div>
+            </li>
+            {/* TIMELINE ITEM ENDS */}
+            {/* TIMELINE ITEM STARTS */}
+            <li>
+              <div className="animated-layer fade-in-up-animation fadeInUp wow">
+                <div className="experience">
+                  <h4>Održavanje</h4>
                   <p>
-                    <i className="fa-solid fa-building-columns" />
-                    <span>Berlin High School</span>
+                    <i className="fa-solid fa-tools" />
+                    <span>Prijava kvarova, održavanje i prijdlozi novih rješenja.</span>
+                  </p>
+                </div>
+              </div>
+            </li>
+            {/* TIMELINE ITEM ENDS */}
+            {/* TIMELINE ITEM STARTS */}
+            <li>
+              <div className="animated-layer fade-in-down-animation fadeInUp wow">
+                <div className="experience">
+                  <h4>Zajednica</h4>
+                  <p>
+                    <i className="fa-solid fa-users" />
+                    <span>Događanja, razmjena informacija i ideja</span>
+                  </p>
+                </div>
+              </div>
+            </li>
+            {/* TIMELINE ITEM ENDS */}
+            {/* TIMELINE ITEM STARTS */}
+            <li>
+              <div className="animated-layer fade-in-up-animation fadeInUp wow">
+                <div className="experience">
+                  <h4>Automatizacija</h4>
+                  <p>
+                    <i className="fa-solid fa-cog" />
+                    <span>Izvršavanje narudžbi s webshopa i komunikacija prema dobavljačima</span>
                   </p>
                 </div>
               </div>
@@ -303,7 +317,7 @@ const About = () => {
         </div>
         {/* TIMELINE ENDS */}
       </div>
-      {/* RESUME ENDS */}
+      {/* PREDNOSTI ENDS */}
       <img
         alt=""
         className="separator hide-mobile"

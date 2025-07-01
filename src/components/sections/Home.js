@@ -6,17 +6,17 @@ const Home = () => {
           <h1>
             <span>
               <span className="animated-layer">
-                Hello<span>.</span>
+                Zgradica<span>!</span>
               </span>
             </span>
             <span className="position-relative">
-              <span className="animated-layer">I am</span>
+              <span className="animated-layer">vaš</span>
               <span className="intro animated-layer">
-                Front-end Developer with 7 years experience based in London
+                Pretvorite vašu zgradu u smart dom ... upravljajte, glasujte i komunicirajte pametnije uz Zgradicu
               </span>
             </span>
             <span>
-              <span className="animated-layer">Steven</span>
+              <span className="animated-layer">smart dom.</span>
             </span>
           </h1>
         </div>

@@ -25,7 +25,7 @@ const Switcher = () => {
         style={{ display: "block" }}
       >
         <div className="content-switcher">
-          <h4>COLOR SWITCHER</h4>
+          <h4>Promijeni boju</h4>
           <ul>
             {colors.map((color) => (
               <li>

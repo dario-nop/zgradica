@@ -235,6 +235,30 @@ export const jqueryFuntion = () => {
         scrollInertia: 1500,
       });
     });
+    /* ----------------------------------------------------------- */
+    /*  PORTFOLIO PREVIEW BUTTON TO CONTACT
+    /* ----------------------------------------------------------- */
+
+    // Hvata sve klikove na gumbe s klasom .custom-btn unutar sekcije #portfolio
+    $("#portfolio .util-btn").on("click", function (e) {
+      e.preventDefault(); // Sprječava defaultno ponašanje linka
+
+      // Provjerava širinu prozora da zna koju metodu skrolanja koristiti
+      if ($(window).width() > 1024) {
+        // Desktop verzija - koristi horizontalni mCustomScrollbar
+        $("#wrapper").mCustomScrollbar("scrollTo", "#contact", {
+          scrollInertia: 1500,
+        });
+      } else {
+        // Mobilna verzija - koristi standardni vertikalni scroll
+        $("html, body").animate(
+          {
+            scrollTop: $("#contact").offset().top,
+          },
+          1000 // Brzina animacije u milisekundama
+        );
+      }
+    });
 
     $("#menu li a").on("click", function () {
       $("#checkboxmenu").trigger("click");

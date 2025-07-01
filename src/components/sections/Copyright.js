@@ -7,37 +7,32 @@ const Copyright = () => {
         src="assets/separator-copyright.png"
       />
       <div>
-        <span>© {new Date().getFullYear()} Steven Walker</span>
+        <span>© {new Date().getFullYear()} Zgradica</span>
         <span>
-          Designed By{" "}
+          Powered By{" "}
           <a
             target="_blank"
-            href="https://themeforest.net/user/Codeefly/portfolio"
+            href="https://www.laus-deo.hr"
           >
-            Codeefly
+            Laus Deo d.o.o.
           </a>
         </span>
         <ul>
           <li>
-            <a href="#">
-              <i className="fa-brands fa-github" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i className="fa-brands fa-twitter" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i className="fa-brands fa-dribbble" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i className="fa-brands fa-facebook" />
-            </a>
-          </li>
+                <a href="https://chat.whatsapp.com/HQV2gnqeaUcGUP2k7Ae1my">
+                  <i className="fa-brands fa-whatsapp" />
+                </a>
+              </li>
+              <li>
+                <a href="https://invite.viber.com/?g2=AQA5ALkmP54z3FTwTC5GxfFUK%2F%2Fwr0ap3VIZiNc3apUulC12jRTIqvzvDV0Pjki4">
+                  <i className="fa-brands fa-viber" />
+                </a>
+              </li>
+              <li>
+                <a href="https://laus-deo.hr">
+                  <i className="fa-brands fa-dribbble" />
+                </a>
+              </li>
         </ul>
       </div>
     </section>
